@@ -30,20 +30,19 @@ Select Cloud Foundry from deployment target option
 
 <img width="635" alt="5" src="https://user-images.githubusercontent.com/16270682/110790351-61a17100-828a-11eb-8d01-111816ddb65e.PNG">
 
-You will need to create an IBM Cloud API key to allow the deployment process to access your resources. Click the New button to create the key. A message dialog will appear. You can accept the default values and confirm to close the dialog.
+You will need to create an IBM Cloud API key to allow the deployment process to access your resources. Click the New button to create the key. A message dialog will appear. You can accept the default values and confirm to close the dialog.Also Increase the Memory allocation per instance slider to at least 128MB. If you do not increase the memory allocation, your Node-RED application might not have sufficient memory to run successfully.
 
-Increase the Memory allocation per instance slider to at least 128MB. If you do not increase the memory allocation, your Node-RED application might not have sufficient memory to run successfully.
+<img width="672" alt="6" src="https://user-images.githubusercontent.com/16270682/110790371-65cd8e80-828a-11eb-8e0b-7b4d0689e685.PNG">
 
-The Node-RED Starter kit only supports deployment to the Cloud Foundry space of IBM Cloud. Select the region to deploy your application to. This should match the region you created your Cloudant instance in. Lite users might only be able to deploy to your default region.
+Configure the DevOps toolchain by selecting the region it should be created in. Again, try to match the region you selected previously. Click Create. 
 
-Click Next to continue.
+<img width="450" alt="7" src="https://user-images.githubusercontent.com/16270682/110790394-6b2ad900-828a-11eb-91be-d7d904b751f9.PNG">
 
-Configure the DevOps toolchain by selecting the region it should be created in. Again, try to match the region you selected previously.
+Refresh the page, the Deployment Automation section will show details of your newly created Delivery Pipeline. The Status field of the pipeline will eventually show In progress. That means your application is being built and deployed.
 
-Click Create. This will take you back to the application details page. The application details page gives you a useful overview of your application including details of its external URL and the additional services it is connected to. Bookmark this page as you’ll need to come back to it later.
+<img width="855" alt="8" src="https://user-images.githubusercontent.com/16270682/110790414-71b95080-828a-11eb-8d29-dfa60a9dbca8.PNG">
 
-After a few moments, the Deployment Automation section will refresh with the details of your newly created Delivery Pipeline. The Status field of the pipeline will eventually show In progress. That means your application is being built and deployed.
+Click the Status field to see the full status of the Delivery Pipeline. The Deploy stage will take a few minutes to complete. You can click on the View logs and history link to check its progress. Eventually the Deploy stage will go green to show it has passed. This means your Node-RED Starter application is now running.
 
-Click the Status field to see the full status of the Delivery Pipeline.
+<img width="535" alt="9" src="https://user-images.githubusercontent.com/16270682/110790440-77169b00-828a-11eb-866f-0ba29115ac29.PNG">
 
-The Deploy stage will take a few minutes to complete. You can click on the View logs and history link to check its progress. Eventually the Deploy stage will go green to show it has passed. This means your Node-RED Starter application is now running.
