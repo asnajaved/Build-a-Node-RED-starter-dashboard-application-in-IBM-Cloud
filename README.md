@@ -46,7 +46,7 @@ Click the Status field to see the full status of the Delivery Pipeline. The Depl
 
 <img width="535" alt="9" src="https://user-images.githubusercontent.com/16270682/110790440-77169b00-828a-11eb-866f-0ba29115ac29.PNG">
 
-## Step 4. Open and Configure your Node-RED application
+## Step 4: Open and Configure your Node-RED application
 
 on the application details page click on the App URL to open up your Node-RED application in a new browser tab.
 
@@ -61,3 +61,24 @@ Node-RED will save your changes and then load the main application. From here yo
 <img width="1191" alt="11" src="https://user-images.githubusercontent.com/16270682/110793739-69631480-828e-11eb-8cb4-04098f8ea774.png">
 
 The Node-RED editor opens showing the default flow.
+
+## Step 5: Add Dashboard nodes to your Node-RED palette
+
+On your application’s details page, click Source url
+
+<img width="650" alt="12" src="https://user-images.githubusercontent.com/16270682/110795286-1ab67a00-8290-11eb-9577-e18086fb47f9.PNG">
+
+This will take you to a git repository where you can edit the application source code from your browser. Scroll down the list of files and click on package.json. This file lists the module dependencies of your application.
+
+<img width="771" alt="13" src="https://user-images.githubusercontent.com/16270682/110795289-1b4f1080-8290-11eb-8b46-c38f53e4261a.PNG">
+
+Click the edit button and Add following in dependecies section 
+
+     "node-red-dashboard": "2.x",
+ 
+ <img width="660" alt="14" src="https://user-images.githubusercontent.com/16270682/110795280-18ecb680-8290-11eb-9abb-60992bcdefc4.PNG">
+ 
+ ##### Note: Do not forget the comma (,) at the end of the line to separate it from the next entry.
+ 
+  click Commit changes
+
