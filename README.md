@@ -54,11 +54,11 @@ on the application details page click on the App URL to open up your Node-RED ap
 
 On the initial screen, click Next to continue. Secure your Node-RED editor by providing a username and password. If you need to change these at any point, you can either edit the values in the Cloudant database, or override them using environment variables. The documentation on nodered.org describes how to do this. Click Next to continue. Click Finish to proceed. 
 
-<img width="1256" alt="11a" src="https://user-images.githubusercontent.com/16270682/110793734-67995100-828e-11eb-9c51-e4088c9251fa.png">
+<img width="800" alt="11a" src="https://user-images.githubusercontent.com/16270682/110793734-67995100-828e-11eb-9c51-e4088c9251fa.png">
 
 Node-RED will save your changes and then load the main application. From here you can click the Go to your Node-RED flow editor button to open the editor.
 
-<img width="1191" alt="11" src="https://user-images.githubusercontent.com/16270682/110793739-69631480-828e-11eb-8cb4-04098f8ea774.png">
+<img width="700" alt="11" src="https://user-images.githubusercontent.com/16270682/110793739-69631480-828e-11eb-8cb4-04098f8ea774.png">
 
 The Node-RED editor opens showing the default flow.
 
