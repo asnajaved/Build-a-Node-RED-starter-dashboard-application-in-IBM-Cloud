@@ -46,3 +46,18 @@ Click the Status field to see the full status of the Delivery Pipeline. The Depl
 
 <img width="535" alt="9" src="https://user-images.githubusercontent.com/16270682/110790440-77169b00-828a-11eb-866f-0ba29115ac29.PNG">
 
+## Step 4. Open and Configure your Node-RED application
+
+on the application details page click on the App URL to open up your Node-RED application in a new browser tab.
+
+<img width="562" alt="10" src="https://user-images.githubusercontent.com/16270682/110793205-c8745980-828d-11eb-9494-ff45b6a5288d.PNG">
+
+On the initial screen, click Next to continue. Secure your Node-RED editor by providing a username and password. If you need to change these at any point, you can either edit the values in the Cloudant database, or override them using environment variables. The documentation on nodered.org describes how to do this. Click Next to continue. Click Finish to proceed. 
+
+<img width="1256" alt="11a" src="https://user-images.githubusercontent.com/16270682/110793734-67995100-828e-11eb-9c51-e4088c9251fa.png">
+
+Node-RED will save your changes and then load the main application. From here you can click the Go to your Node-RED flow editor button to open the editor.
+
+<img width="1191" alt="11" src="https://user-images.githubusercontent.com/16270682/110793739-69631480-828e-11eb-8cb4-04098f8ea774.png">
+
+The Node-RED editor opens showing the default flow.
